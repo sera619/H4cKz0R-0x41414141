@@ -1,0 +1,110 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+
+
+# Title of the Site
+title: H4ckZ0r-HT
+# Description of the Site
+description: HOW TO BE A HACKER - IN DEUTSCH
+# URL of Image of the Site
+site-image: /docs/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: https://raw.githubusercontent.com/sera619/FOX-TALE-Alpha/master/docs/assets/favicon.ico
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://github.com/sera619/FOX-TALE-Alpha/blob/master/assets/img/interface/rpg3.png?raw=true
+# URL to issue Page on GitHub
+support-site: https://github.com/sera619/FOX-TALE-Alpha/issues/new
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: Seraphinus619@gmail.com
+facebook_username: nick.sera.9028
+#twitter_username: thedevslot
+#instagram_username: thedevslot
+#linkedin_username: thedevslot
+github_username: sera619
+youtube_channel_id: UCJLXwZV5Kk4XRF6TSY_iPgQ
+#reddit_username: /
+#behance_username: /
+#dribbble_username: /
+#spotify_username: /
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: S3R43o3
+
+# Name of the Author
+author-name: A Fox Tale
+# URL for the Image of the Author
+author-image: https://github.com/sera619/FOX-TALE-Alpha/blob/master/assets/img/icons/game_logo_colored.png?raw=true
+# 60 Words About the Author
+author-about: Ein 2D-PixelArt Action Rollenspiel und wird von dem kleinen Entwickler Studio 'Creative Dudes Studios' entwickelt.Das Spiel befindet sich zurzeit in der internen Alpha-Test Phase. Eine erste spielbare Demo wird spätestens am 31.12.2021 verfügbar sein. Für weitere Informationen über das Spiel klicke auf 'SPIELGUIDE'.
+
+game-logo: https://github.com/sera619
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/sera619
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+carousels: 
+  - images:
+    - image: /docs/assets/images/ingame_UI.png
+    - image: /docs/assets/images/ingame_menu2.png
+    - image: /docs/assets/images/inventar.png
+    - image: /docs/assets/images/inventar2.png
+    - image: /docs/assets/images/mainmenu.png
+    - image: /docs/assets/images/mainmenu2.png
+    # Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
