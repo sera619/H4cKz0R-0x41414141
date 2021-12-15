@@ -9,11 +9,11 @@ baseurl:
 
 
 # Title of the Site
-title: H4ckZ0r-HT
+title: H4ckZ0r 0x41
 # Description of the Site
 description: HOW TO BE A HACKER - IN DEUTSCH
 # URL of Image of the Site
-site-image: /docs/assets/images/meta.jpg
+site-image: /docs/assets/images/0x41.png
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
@@ -44,13 +44,11 @@ google-analytics: UA-163806439-1
 disqus-shortname: S3R43o3
 
 # Name of the Author
-author-name: A Fox Tale
+author-name: H4ckZ0r 0x41
 # URL for the Image of the Author
-author-image: https://github.com/sera619/FOX-TALE-Alpha/blob/master/assets/img/icons/game_logo_colored.png?raw=true
+author-image: https://github.com/sera619/H4cKz0R-0x41414141/blob/main/assets/images/0x41.png?raw=true
 # 60 Words About the Author
-author-about: Ein 2D-PixelArt Action Rollenspiel und wird von dem kleinen Entwickler Studio 'Creative Dudes Studios' entwickelt.Das Spiel befindet sich zurzeit in der internen Alpha-Test Phase. Eine erste spielbare Demo wird spätestens am 31.12.2021 verfügbar sein. Für weitere Informationen über das Spiel klicke auf 'SPIELGUIDE'.
-
-game-logo: https://github.com/sera619
+author-about: Du willst also das Hacken lernen? Was man dazu braucht gibts hier - in Deutsch! 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/sera619
 

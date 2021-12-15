@@ -8,9 +8,14 @@ body {
     scroll-behavior: smooth !important;
     transition: all 0.25s ease;
     background-color: #161616 !important;
-    color:#22c202 !important;
 }
 
+#green-text{
+    color:rgb(43, 221, 7);
+}
+.green-line{
+    background-color: #15ff00;
+}
 .navbar-brand {
     font-family: 'Ruslan Display', sans-serif;
     font-size: xx-large;
