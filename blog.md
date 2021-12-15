@@ -1,5 +1,5 @@
 ---
-title: Spielguide
+title: GUIDES
 layout: blog
 ---
 
