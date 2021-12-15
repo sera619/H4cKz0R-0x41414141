@@ -1,0 +1,24 @@
+- name: DUDEBOT
+  image: https://i.morioh.com/210715/ff989a40.webp
+  link: https://github.com/sera619/PythonDiscordBot
+  description: Der extra fürs das Spiel entwickelte Discord Bot.
+- name: GODOT ENGINE
+  image: https://godotengine.org/themes/godotengine/assets/press/logo_large_color_light.png 
+  link: https://godotengine.org/
+  description: Die kostenfreie Open Source Spiel-Engine mit einzigartiger Scene-Mechanik. 
+- name: ASEPRITE
+  link: https://github.com/aseprite/aseprite
+  image: https://www.aseprite.org/assets/images/header-logo.png
+  description: Der PixelArt-Imageeditor kostenfrei - wenn man ihn selbst kompilieren kann.
+- name: DISCORD
+  link: https://discord.com/
+  image: https://xboxplay.games/uploadStream/23217.jpg
+  description: Die Teamspeak alternative mit vielen zusätzlichen Features. 
+- name: ITCH.IO
+  link: https://itch.io/
+  image: https://www.gamingonlinux.com/uploads/tagline_gallery/itch-logo.jpg
+  description: Umfangreiche Spiel-Asset Bibiolothek, Hoster und Comunity.
+- name: GD QUEST
+  link: https://www.gdquest.com/
+  image: https://d1tq3fcx54x7ou.cloudfront.net/uploads/store/tenant_0/site/128/logo/original-63746be4245f03ad61fda1f4f159581e.png
+  description: Englisch-Sprachige Lernplattform für die Godot-Engine.

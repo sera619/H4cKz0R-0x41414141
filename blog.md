@@ -1,0 +1,5 @@
+---
+title: Spielguide
+layout: blog
+---
+

@@ -1,0 +1,27 @@
+<div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+        MEHR
+    </a>
+    <div class="navbar-dropdown has-background-black is-left">
+        {% for sitepage in site.html_pages %}
+        {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' or sitepage.url == '/Datenschutz' or sitepage.url =='/Impressum' or sitepage.url =='/Media' %}
+        <a href="{{sitepage.url | absolute_url}}"
+            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
+            {{sitepage.title}}
+        </a>
+        {% endunless %}
+        {% endfor %}
+        <hr class="navbar-divider">
+        <a href="{{site.url}}{{site.baseurl}}/Impressum"
+        class="navbar-item has-text-grey-light">
+        IMPRESSUM
+    </a>
+    <a href="{{site.url}}{{site.baseurl}}/Datenschutz" class="navbar-item has-text-grey-light">
+        DATENSCHUTZ
+    </a>
+    <hr class="navbar-divider">
+    <a href="{{site.support-site}}" class="navbar-item has-text-grey-light">
+      BUG MELDEN
+    </a>
+</div>
+</div>

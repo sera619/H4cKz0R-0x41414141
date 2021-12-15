@@ -1,0 +1,12 @@
+- name: MORPHEUS
+  image: https://github.com/sera619/FOX-TALE-Alpha/blob/master/docs/assets/images/morpheus-banner.jpg?raw=true
+  link: https://www.youtube.com/c/TheMorpheus407
+  description: Ein Kanal rund um das Thema Informatik und Programmieren mit über 2000 Videos! Ob Python, Java oder Webdevelopment oder doch Hacken und theoretische Informatik - es ist alles da!
+- name: FREE CODE CAMP
+  image: https://github.com/sera619/FOX-TALE-Alpha/blob/208e27b9446e8344150c03ea7c0e5668f4907ea2/docs/assets/images/FreeCodeCamp_banner.jpg?raw=true
+  link: https://www.youtube.com/c/Freecodecamp
+  description: Englisch-Sprachiger Kanal zum lernen fast aller Programmiersprachen.
+- name: SCRIMBA
+  image: https://github.com/sera619/FOX-TALE-Alpha/blob/e4fb7b120d02bcc7e12ccf1c17369fc3b879b926/docs/assets/images/scrimba_banner.jpg?raw=true
+  link: https://www.youtube.com/c/Scrimba
+  description: Englisch-Sprachiger Kanal mit einem Coden lernen direkt im Video!

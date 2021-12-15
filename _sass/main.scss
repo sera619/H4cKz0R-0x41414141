@@ -1,0 +1,139 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Cherish&family=Comforter+Brush&family=Great+Vibes&family=Lato:wght@300&family=Lovers+Quarrel&family=Monsieur+La+Doulaise&family=Nosifer&family=Ruslan+Display&family=Ruthie&family=Teko:wght@500&family=WindSong:wght@500&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css');
+
+html,
+body {
+    font-family: 'Teko', sans-serif;
+    scroll-behavior: smooth !important;
+    transition: all 0.25s ease;
+}
+
+.navbar-brand {
+    font-family: 'Ruslan Display', sans-serif;
+    font-size: xx-large;
+}
+
+
+#myTable{
+    font-family: 'helvetica neue',helvetica,arial,'lucida grande',sans-serif;
+    border-collapse: collapse;
+ }
+ #myTable td{
+    border: solid 1px #C9C9C9;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+ }
+ #myTable tr{
+    background-color: #EBEBEB;
+    color: #000000;
+ }
+ #myTable th{
+    border: solid 1px #BFBFBF;
+    padding: 10px;
+    color: #000000;
+    background-color: #D4D4D4;
+    text-align: center;
+    font-size: 12px;
+ }
+
+.post-content {
+    display: block !important;
+}
+.center {
+    display: block!important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+
+/************CSS Animation***********/
+
+.animated { 
+	animation-name: bounceInLeft; 
+	animation-duration: 1s;
+}
+@keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-200px);
+	}
+	60% {
+		opacity: 1;
+		transform: translateX(30px);
+	}
+	80% {
+		transform: translateX(-10px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+.bounceInLeft {
+	animation-name: bounceInLeft;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.5vmax !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #363636 !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: black !important;
+}
+
+::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    .navbar-burger {
+        span:nth-child(2) {
+            left: calc(50%);
+            width: 8px;
+        }
+    }
+}
+
+.is-active {
+    font-weight: bold;
+}
+
+.columns {
+    .button {
+        margin: 0.5rem !important;
+    }
+}
+
+hr {
+    margin: 1rem auto;
+    height: 1px;
+}
+
+.column {
+    margin: auto 0.5rem;
+    padding: 0.5rem;
+}
+
+.searchResult {
+    a {
+        .title {
+            text-decoration: underline;
+        }
+    }
+}

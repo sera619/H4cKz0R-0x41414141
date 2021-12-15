@@ -1,0 +1,39 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include navbar.html %}
+
+    <!--Main Section-->
+    <section class="hero is-fullheight" id="project">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="section">
+                    <span class="fa-solid fa-link fa-3x"></span>
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">LINKS</p>
+                </div>
+                {% include project-card.html %}
+                <hr class="has-background-black">
+                <div class="section">
+                    <span class="fab fa-youtube fa-3x"></span>
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">YOUTUBE LINKS</p>
+                </div>
+                {% include youtube-card.html %}
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!--Footer-->
+    {% include footer.html %}
+</body>
+
+</html>
