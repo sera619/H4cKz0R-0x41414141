@@ -26,28 +26,28 @@
                 <i class="fab fa-twitter"></i>Tweet me on Twitter
             </a>
             {% endunless %}
-            <hr>
-            <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
+            <hr class="green-line">
+            <h3 id="green-text" class="is-size-5 is-uppercase has-text-weight-semibold has-text is-marginless">
                 Außerdem unter den folgenden Buttons
             </h3>
-            <div class="column is-full is-size-3">
+            <div id="green-line" class="column is-full is-size-3">
                 {% unless site.facebook_username == %}
-                <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i class="fab fa-facebook"></i></a>
+                <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" id="green-text"class="has-text-black"><i class="fab fa-facebook"></i></a>
                 {% endunless %}
                 {% unless site.twitter_username == %}
-                <a href="http://www.twitter.com/{{site.twitter_username}}" target="_blank" class="has-text-black"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.twitter.com/{{site.twitter_username}}" target="_blank" id="green-text"class="has-text"><i class="fab fa-twitter"></i></a>
                 {% endunless %}
                 {% unless site.instagram_username ==  %}
-                <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i class="fab fa-instagram"></i></a>
+                <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" id="green-text"class="has-text"><i class="fab fa-instagram"></i></a>
                 {% endunless %}
                 {% unless site.linkedin_username ==  %}
-                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><i class="fab fa-linkedin"></i></a>
+                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" id="green-text"class="has-text"><i class="fab fa-linkedin"></i></a>
                 {% endunless %}
                 {% unless site.github_username ==  %}
-                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>
+                <a href="http://www.github.com/{{site.github_username}}" target="_blank" id="green-text" class="has-text"><i class="fab fa-github"></i></a>
                 {% endunless %}
                 {% unless site.youtube_channel_id ==  %}
-                <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank" class="has-text-black"><i class="fab fa-youtube"></i></a>
+                <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank"id="green-text" class="has-text-"><i class="fab fa-youtube"></i></a>
                 {% endunless %}
                 {% unless site.reddit_username ==  %}
                 <a href="http://www.reddit.com/u/{{site.reddit_username}}" target="_blank" class="has-text-black"><i class="fab fa-reddit"></i></a>
