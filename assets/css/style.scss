@@ -34,17 +34,17 @@
 
 a.navbar-item:hover,
 .navbar-link:hover {
-    background-color: rgba($color: rgb(255, 145, 0), $alpha: 0.80) !important;
+    background-color: rgba($color: rgba(23, 247, 2, 0.897), $alpha: 0.80) !important;
     color: white !important;
     
 }
 
 a.navbar-item.is-active {
-    background-color: rgba($color: rgb(255, 145, 0), $alpha: 0.90) !important;
+    background-color: rgba($color: rgb(21, 255, 0), $alpha: 0.90) !important;
     color: white !important;
 
     &:hover {
-        background-color: rgba($color: rgb(255, 145, 0), $alpha: 1) !important;
+        background-color: rgba($color: rgb(21, 255, 0), $alpha: 1) !important;
         color: grey;
     }
 }

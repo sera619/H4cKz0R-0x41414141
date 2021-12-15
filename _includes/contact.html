@@ -1,29 +1,24 @@
 <section class="hero is-fullheight has-text-centered" id="contact">
     <div class="hero-body">     
         <div class="container">
-            <h3 class="title has-text-black is-size-1 is-uppercase has-text-weight-bold">Du hast fragen? Du bist vielleicht selbst Developer, Artist, Writer oder Gamedesigner? Oder möchtest du einfach nur mal 'Hallo' sagen? Scheue dich nicht uns zu kontaktieren!
+            <h3 id="home-header" class="title is-size-1 is-uppercase has-text-weight-bold">Du hast Fragen oder Anregungen? Kontaktiere mich! Einfach die folgenden Buttons klicken.
             </h3>
             <br><br />
 
             {% unless site.facebook_username == %}
             <a id="contact-button" href="https://m.me/{{site.facebook_username}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
-                <i class="fab fa-facebook-messenger"></i>Schreibe uns im Facebook-Messanger
+                <i class="fab fa-facebook-messenger"></i>Schreibe mir im Facebook-Messanger
             </a>
             {% endunless %}
             {% unless site.email == %}
             <a id="contact-button" href="mailto:{{site.email}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
-                <i class="fas fa-envelope"></i>Sende uns eine E-Mail
+                <i class="fas fa-envelope"></i>Sende mir eine E-Mail
             </a>
             {% endunless %}
-            <a id="contact-button" href="https://discord.gg/xAWpVtnUTT"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                target="_blank">
-                <i class="fab fa-discord"></i>Komm auf unseren Discord
-            </a>
             {% unless site.twitter_username == %}
             <a id="contact-button" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"

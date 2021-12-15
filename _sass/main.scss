@@ -7,6 +7,8 @@ body {
     font-family: 'Teko', sans-serif;
     scroll-behavior: smooth !important;
     transition: all 0.25s ease;
+    background-color: #161616 !important;
+    color:#22c202 !important;
 }
 
 .navbar-brand {
@@ -130,6 +132,13 @@ hr {
     padding: 0.5rem;
 }
 
+#home-header{
+    color:rgb(43, 221, 7);
+}
+
+#contact-button{
+    color: rgb(43, 221, 7);
+}
 .searchResult {
     a {
         .title {
