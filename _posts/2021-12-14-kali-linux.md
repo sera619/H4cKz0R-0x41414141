@@ -78,7 +78,7 @@ tags:
 </center>
 <br>
 
->Hier also der etwas trockene Teil. Wichtiger Schritt bei Linux oder generell __allen Systemen__  ist es, das __System aktuell zu halten__. Hierzu müssen wir Linux sagen, dass wir gerne das es nach Updates suchen soll. Es gibt noch eine Vielzahl weiterer Befehle, die unsere __shell__ verarbeiten kann. Hier nur ein __kleiner Ausschnitt__ den wir aber für die __nächsten Lektionen brauchen__ werden!  
+>Hier also der etwas trockene Teil. Wichtiger Schritt bei Linux oder generell __allen Systemen__  ist es, das __System aktuell zu halten__. Hierzu müssen wir Linux sagen, dass wir gerne hätten das es nach Updates suchen soll. Es gibt noch eine Vielzahl weiterer Befehle, die unsere __shell__ verarbeiten kann. Hier nur ein __kleiner Ausschnitt__ den wir aber für die __nächsten Lektionen brauchen__ werden!  
 >
 >|Befehl|Aktion|
 >|------:|:-------|
