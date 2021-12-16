@@ -126,7 +126,7 @@ cd Desktop
 mkdir MeineScripts &&  cd MeineScripts &&  mkdir Bash &&  cd Bash
 ```
 >
->einen 2 neue Ordner und wechseln direkt in den __Bash__ Ordner.
+>2 neue Ordner und wechseln direkt in den __Bash__ Ordner.
 >Wie du gemerkt hast, haben wir gerade ganze komisch __2x - &__ verwendet. Warum? Dies nennt man __logischen Operator__. Wir wollen also das erst das eine und dann das andere gemacht wird. Man könnte aber mit nur __einem - &__ sagen das man gerne 2 Variablen(z.B. - Zahlen) __addiert__ haben möchte, also - __+__. 
 >
 >_Ein weiterer FunFact ist also_ - __Kein Weg in der Programmierung oder beim Hacken ist final. Es gibt immer 1000 Wege nach Rom, so auch hier.__
