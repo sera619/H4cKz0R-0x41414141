@@ -29,6 +29,11 @@ nc=`tput sgr0`
 a="padawan"
 # -> Ende
 # Wilkommen - Funktion -> Start
+#!/bin/bash
+rot=`tput setaf 1`
+green=`tput setaf 2`
+nc=`tput sgr0`
+a="padawan"
 clear
 echo
 echo
@@ -36,13 +41,13 @@ echo "${rot}Dein erstes Bash-Script funktioniert!${nc}"
 echo
 echo
 sleep 2
-echo "${rot}Bitte gib einen Namen ein${nc}"
+echo "${rot}Bitte gib einen Namen ein!${nc}"
 echo
 read b
 echo
-echo "${rot}Hallo Hacker-$b.${nc}"
+echo "${rot}Hallo Hacker-$b!${nc}"
 echo
-echo "${rot}Wie geht es dir?${nc}"
+echo "${rot}Na - $b ... Wie geht es dir?${nc}"
 sleep 2
 echo
 echo "${rot}Updates werden gesucht ...${nc}"
