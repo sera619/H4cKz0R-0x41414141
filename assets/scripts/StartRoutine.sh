@@ -26,10 +26,8 @@
 rot=`tput setaf 1`
 green=`tput setaf 2`
 nc=`tput sgr0`
-a="padawan"
 # -> Ende
-# Wilkommen - Funktion -> Start
-#!/bin/bash
+#
 # hier habe ich für den visuellen Effekt einfach mal ein paar Farbcodes als Variablen gespeichert. 
 # eine Variable kann alles sein!
 # Eine Zahl 1
@@ -43,7 +41,7 @@ nc=`tput sgr0`
 #
 #
 # Wenn du lust hast kannst du einfach eigene Variablen erstellen oder wie wir Programmierer sagen deklarieren.
-a="padawan"
+deinevariable="Hallo"
 clear
 echo
 echo
@@ -84,4 +82,5 @@ echo
 echo "${rot}Beende Programm... Bye!${nc}"
 sleep 2
 clear
+done
 # -> Hier ENDET das Script  <-
