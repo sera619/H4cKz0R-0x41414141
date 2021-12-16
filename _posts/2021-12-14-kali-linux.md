@@ -193,7 +193,7 @@ clear
 echo
 echo "${rot}Beende Programm... Bye!${nc}"
 sleep 2
-clear
+done
 ```
 
 
