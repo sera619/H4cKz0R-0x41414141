@@ -112,7 +112,7 @@ tags:
 >
 >   - ![](https://github.com/sera619/H4cKz0R-0x41414141/blob/main/assets/images/2/basic_6.png?raw=true)
 >
->Viele Kali-User haben eine Art Startroutine - vielleicht direkt eine proxychain starten oder man möchte sich Gewisse Dinge anzeigen lassen. Die lässt sich in Linux alles ohne weitere Probleme lösen. Das Terminal welches wir nutzen ist __BASH__ _(bourne again shell)_. Wir können mit dieser __shell__ _(shell - Terminal, Kommandoconsole(Powerpoint - Windows ))_ __ALLES__ in Linux steuern und die Eingabe-Sprache ist __Skriptfähig__! Also nun an wir schreiben ein Script welches automatisch das System auf Updates prüft und wenn gewünscht diese Updates installiert. Na bist du schon gespannt? Los gehts!  
+>Viele Kali-User haben eine Art Startroutine - vielleicht direkt eine proxychain starten oder man möchte sich Gewisse Dinge anzeigen lassen. Das lässt sich in Linux alles ohne weitere Probleme lösen. Das Terminal welches wir nutzen ist __BASH__ _(bourne again shell)_. Wir können mit dieser __shell__ _(shell - Terminal, Kommandoconsole(Powerpoint - Windows ))_ __ALLES__ in Linux steuern und die Eingabe-Sprache ist __Skriptfähig__! Also nun an wir schreiben ein Script welches automatisch das System auf Updates prüft und wenn gewünscht diese Updates installiert. Na bist du schon gespannt? Los gehts!  
 >
 >Bauen wir uns also erst einmal ein Ordner. Hierfür bewegen wir uns mittels
 >
