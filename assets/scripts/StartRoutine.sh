@@ -35,9 +35,6 @@ nc=`tput sgr0`
 # Eine Dezimalzahl 2.345
 #
 # Es kann aber auch ganze Funktionen behinhalten. Dazu aber später mehr. Mache dich mit den Basics vertraut!
-rot=`tput setaf 1`
-green=`tput setaf 2`
-nc=`tput sgr0`
 #
 #
 # Wenn du lust hast kannst du einfach eigene Variablen erstellen oder wie wir Programmierer sagen deklarieren.
