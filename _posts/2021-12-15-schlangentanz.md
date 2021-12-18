@@ -288,7 +288,7 @@ python3 /Desktop/MeineScripts/Python/Basics.py
 > - [x] - Atom editor installiert
 > - [x] - Atom Package - Python IDE installiert
 > - [x] - Was sind Documentationen
-> - [x] - Einen Geburtstags-Rechner programmiert
+> - [x] - Einen Geburtstags-Rechner mit Python programmiert
 >
 >Ich würde sagen wir nähern uns mit großen Schritten =). Du darfst dich freuen in der Nächsten Lektion werden wir dann das erste Mal das __Tool 'NMap'__ benutzen und __Netzwerke__ etwas besser kennenlernen. Ich bin schon gespannt! Ich muss aber noch __eine schlechte Nachricht__ verbreiten. Die nächste Lektion wird auf Grund meines Arbeitsumfangs etwa erst __in einer Woche erscheinen__. Durch die Feiertage und andere Projekte bin ich etwas eingespannt. Dir steht es jedoch frei gerne auch __ohne mich weiter zu lernen!__
 >
