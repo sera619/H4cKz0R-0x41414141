@@ -304,3 +304,5 @@ python3 /Desktop/MeineScripts/Python/Basics.py
 >
 >Bis dahin, __ALLES GUTE!__ und __KEEP YOUR SYSTEM SAFE!__
 >
+<br>
+<hr class="green-line">
