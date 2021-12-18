@@ -259,6 +259,9 @@ def user_birthday():
 python3 /Desktop/MeineScripts/Python/Basics.py
 ```
 >
+>
+>   - ![](https://github.com/sera619/H4cKz0R-0x41414141/blob/main/assets/images/3/geburtstag_py.png?raw=true)
+>
 >aus. Ich hoffe es hat alles geklappt ansonsten versuche deinen Fehler zu finden. Oder vielleicht auch meinen ?! =D
 >
 >So! Ich habe in dieser Lektion eine __Hausaufgabe__ für dich! 
