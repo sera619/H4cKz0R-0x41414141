@@ -288,7 +288,7 @@ python3 /Desktop/MeineScripts/Python/Basics.py
 > - [x] - Was sind Documentationen
 > - [x] - Einen Geburtstags-Rechner programmiert
 >
->Ich würde sagen wir nähern uns mit großen Schritten =). Du darfst dich freuen in der Nächsten Lektion werden wir dann das erstmal das __Tool 'NMap'__ benutzen und __Netzwerke__ etwas besser kennenlernen. Ich bin schon gespannt! Ich muss aber noch __eine schlechte Nachricht__ verbreiten. Die nächste Lektion wird auf Grund meines Arbeitsumfangs etwa erst __in einer Woche erscheinen__. Durch die Feiertage und andere Projekte bin ich etwas eingespannt. Dir steht es jedoch frei gerne auch __ohne mich weiter zu lernen!__
+>Ich würde sagen wir nähern uns mit großen Schritten =). Du darfst dich freuen in der Nächsten Lektion werden wir dann das erste Mal das __Tool 'NMap'__ benutzen und __Netzwerke__ etwas besser kennenlernen. Ich bin schon gespannt! Ich muss aber noch __eine schlechte Nachricht__ verbreiten. Die nächste Lektion wird auf Grund meines Arbeitsumfangs etwa erst __in einer Woche erscheinen__. Durch die Feiertage und andere Projekte bin ich etwas eingespannt. Dir steht es jedoch frei gerne auch __ohne mich weiter zu lernen!__
 >
 >Eine weiter Lektion näher dran am __Hacker__ sein! Ich hoffe du konntest einiges lernen und ich verweise noch einmal darauf wenn du Fragen oder Probleme hast, melde dich!
 >Ich bedanke mich wie immer für deine Aufmerksamkeit und freue mich dich in der nächsten Lektion wieder begrüßen zu können!
