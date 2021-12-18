@@ -44,6 +44,8 @@ tags:
 >
 >__Starten__ wir also erst einmal __'Kali Linux'__.
 >
+
+
 <br>
 <hr class="green-line">
 
@@ -64,6 +66,7 @@ tags:
 cd && cd Downloads
 wget -L https://raw.githubusercontent.com/sera619/H4cKz0R-0x41414141/main/assets/scripts/H4ckz0r-Manager.sh
 ```
+>
 >downloaden kannst.
 >__Der 'H4ckz0r-Manager'__ wird uns beide durch die Lektionen begleiten. Ich werde es immer weiter ausbauen sodass du, sollte mal __etwas schiefgehen__ nach schauen kannst und wenn nötig __bestimmte Daten wiederherstellen__ kannst. 
 >
@@ -78,6 +81,8 @@ chmod +x H4ckz0r-Manager.sh && ./H4ckz0r-Manager.sh
 >
 >   - ![](https://github.com/sera619/H4cKz0R-0x41414141/blob/main/assets/images/3/manager_showcast.png?raw=true)
 >
+
+
 <br>
 <hr class="green-line">
 
@@ -154,6 +159,7 @@ print("Hallo")
 >Du wirst dich jetzt sicher fragen, __woher weiß man__ eigentlich was man da eingeben muss? Die Frage wird dir [__die 'Documentation'__](https://docs.python.org/3/) von Python beantworten. Jede Art von Software, besonders bei dem Umfang einer Computersprache, hat so gut wie immer eine 'Documentation'. Dort erklären die Entwickler, wie ihre Software funktioniert und wie man sie benutzt. 
 >Hier wären wir auch wieder bei dem Thema aus Lektion 1: __'Be always updated'__. Lesen, lesen und nochmal lesen. 
 >Oftmals schreibt man einen __ganzen Tag lang keine Zeile code__ weil man sich in etwas einarbeiten muss. Als Nun Hacker wirst du viele Scripte schreiben, also programmieren. So ist es ratsam dich mit dem __Benutzen von Google__, wenn nicht ohnehin schon, besser auseinander zu setzen.
+
 
 <br>
 <hr class="green-line">
@@ -304,5 +310,7 @@ python3 /Desktop/MeineScripts/Python/Basics.py
 >
 >Bis dahin, __ALLES GUTE!__ und __KEEP YOUR SYSTEM SAFE!__
 >
+
+
 <br>
 <hr class="green-line">
