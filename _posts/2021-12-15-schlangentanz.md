@@ -194,7 +194,7 @@ python3 Desktop/MeineScripts/Python/Basics.py
 >
 >Jetzt wird es __etwas komplexer__. Da wir jetzt wissen welches Datum heute ist. Müssen wir jetzt noch wissen, wann unser Benutzer Geburtstag hat. __Den Benutzer 'fragen'__ kann man in Python mit __input()__.
 >
->Ich habe hier also unseren __Geburtstags-Rechner__ einmal __vorbereitet__.
+>Ich habe hier also unseren __Geburtstags-Rechner__ einmal __vorbereitet__ und auch direkt kommentiert so das du nachvollziehen kannst was passiert.
 >
 >
 ```python
