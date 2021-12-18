@@ -147,7 +147,7 @@ print("Hallo")
 >__Deßhalb gewöhne dir eine Schreibweise an!__
 >
 >Das ist ja schon alles kompliziert genug. =)
->Du wirst dich jetzt sicher fragen, __woher weiß man__ eigentlich was man da eingeben muss? Die Frage wird dir [__die 'Documentation'__](https://docs.python.org/3/) von Python beantworten. Jede Art von Software, besonders bei dem Umfang einer Computersprache, findet man so gut wie immer eine 'Documentation'. Dort erklären die Entwickler, wie ihre Software funktioniert und wie man sie benutzt. 
+>Du wirst dich jetzt sicher fragen, __woher weiß man__ eigentlich was man da eingeben muss? Die Frage wird dir [__die 'Documentation'__](https://docs.python.org/3/) von Python beantworten. Jede Art von Software, besonders bei dem Umfang einer Computersprache, hat so gut wie immer eine 'Documentation'. Dort erklären die Entwickler, wie ihre Software funktioniert und wie man sie benutzt. 
 >Hier wären wir auch wieder bei dem Thema aus Lektion 1: __'Be always updated'__. Lesen, lesen und nochmal lesen. 
 >Oftmals schreibt man einen __ganzen Tag lang keine Zeile code__ weil man sich in etwas einarbeiten muss. Als Nun Hacker wirst du viele Scripte schreiben, also programmieren. So ist es ratsam dich mit dem __Benutzen von Google__, wenn nicht ohnehin schon, besser auseinander zu setzen.
 
