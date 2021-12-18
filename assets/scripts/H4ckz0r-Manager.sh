@@ -156,6 +156,7 @@ echo "${deeprot}*                  weiter gegeben werden                    *${n
 echo "${deeprot}*************************************************************${nc}"
 echo
 echo "$description"
+echo
 echo "$des2"
 echo "$des3"
 echo "$des4"
