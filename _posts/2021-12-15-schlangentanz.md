@@ -58,12 +58,10 @@ tags:
 >Da der __'Mousepad' Editor__ von Kali nun nicht das Wahre ist werden wir heute einen anderen Editor installieren und benutzen, der uns bei Code schreiben hilft.
 >Für diesen Zweck habe ich __ein kleines Programm__ geschrieben welches du mit 
 >
-
 ```Bash
 cd && cd Downloads
 wget -L https://raw.githubusercontent.com/sera619/H4cKz0R-0x41414141/main/assets/scripts/H4ckz0r-Manager.sh
 ```
-
 >downloaden kannst.
 >__Der 'H4ckz0r-Manager'__ wird uns beide durch die Lektionen begleiten. Ich werde es immer weiter ausbauen sodass du, sollte mal __etwas schiefgehen__ nach schauen kannst und wenn nötig __bestimmte Daten wiederherstellen__ kannst. 
 >
