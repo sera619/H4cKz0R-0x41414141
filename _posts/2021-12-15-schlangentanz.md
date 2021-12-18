@@ -74,7 +74,7 @@ wget -L https://raw.githubusercontent.com/sera619/H4cKz0R-0x41414141/main/assets
 chmod +x H4ckz0r-Manager.sh && ./H4ckz0r-Manager.sh
 ```
 >
->Jetzt sollte das Programm bei dir gestartet sein. Installiere mit dem Tool den Atom-Editor.
+>Jetzt sollte das Programm bei dir gestartet sein. Installiere mit dem Tool den __'Atom' Editor__.
 >
 >   - ![](https://github.com/sera619/H4cKz0R-0x41414141/blob/main/assets/images/3/manager_showcast.png?raw=true)
 >
