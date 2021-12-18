@@ -1,7 +1,7 @@
 ---
 title: Schlangentanz
 layout: post
-post-image:
+post-image: https://github.com/sera619/H4cKz0R-0x41414141/blob/main/assets/images/schlangentanz.png?raw=true
 description: In dieser Lektion brauchen wir keine Flöte keine Sorge! Python
 tags:
 - Python
