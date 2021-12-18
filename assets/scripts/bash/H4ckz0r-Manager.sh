@@ -40,7 +40,8 @@ _atom_installer()
 _figtoi_install()
 {
   clear
-  echo "${rot}"
+  echo "${orange} ${nc}"
+
   echo
 }
 _updater()
@@ -74,7 +75,7 @@ _script()
     echo
     cd && cd Desktop
     touch StartRoutine_new.sh
-    echo '#!/bin/bash4
+    echo '#!/bin/bash
     rot=`tput setaf 1`
     green=`tput setaf 2`
     nc=`tput sgr0`
