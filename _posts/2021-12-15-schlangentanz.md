@@ -144,7 +144,10 @@ print("Hallo")
     print('Hallo mein Name ist "Sera". Wie geht es dir?')
 ```
 >
->Du siehst, man kann bei vielen Zeilen Code schnell den Überblick verlieren, deßhalb gewöhne dir eine Schreibweise an!
+>Du siehst, man kann bei vielen Zeilen Code schnell den Überblick verlieren -
+>
+>__Deßhalb gewöhne dir eine Schreibweise an!__
+>
 >Das ist ja schon alles kompliziert genug. =)
 >Du wirst dich jetzt sicher fragen, __woher weiß man__ eigentlich was man da eingeben muss? Die Frage wird dir __die 'Documentation'__ von Python beantworten. Jede Art von Software, besonders bei dem Umfang einer Computersprache, findet man so gut wie immer eine 'Documentation'. Dort erklären die Entwickler, wie ihre Software funktioniert und wie man sie benutzt. 
 >Hier wären wir auch wieder bei dem Thema aus Lektion 1: __'Be always updated'__. Lesen, lesen und nochmal lesen. 
