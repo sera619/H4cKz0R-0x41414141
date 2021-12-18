@@ -164,6 +164,13 @@ print("Hallo")
 >Gut, nun aber zurück zum Code. Als Einstieg wollen, wir also ein Programm schreiben, welches uns sagt __wie viele Tage__ es noch dauert bis du Geburtstag hast. 
 >Schauen wir uns also erst einmal an wie wir herausfinden __welcher Tag heute ist__.
 >Dazu schreiben wir folgenden Code.
+>Wie immer kannst du das ganze einfach kopieren oder aber, __das empfehle ich, selbst schreiben__.
+>
+>
+>__Beachte beim selbst schreiben das du meine Kommentare, die Zeilen die hinter einer # sind, weglassen kannst!__
+>
+>__Wie auch schon in Bash, unbedingt penibel auf Komma, Punkt, Sonderzeichen, Leerzeichen und Absätze achten!__
+>
 >
 ```python
 # hier importieren wir eine stantard libary 'datetime' und daraus die 'Klasse' 'date' 
@@ -189,12 +196,6 @@ python3 Desktop/MeineScripts/Python/Basics.py
 >
 >Ich habe hier also unseren __Geburtstags-Rechner__ einmal __vorbereitet__.
 >
->Wie immer kannst du das ganze einfach kopieren oder aber, __das empfehle ich, selbst schreiben__.
->
->
->__Beachte beim selbst schreiben das du meine Kommentare, die Zeilen die hinter einer # sind, weglassen kannst!__
->
->__Wie auch schon in Bash, unbedingt penibel auf Komma, Punkt, Sonderzeichen, Leerzeichen und Absätze achten!__
 >
 ```python
 from datetime import datetime
