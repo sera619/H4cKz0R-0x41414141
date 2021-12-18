@@ -164,8 +164,8 @@ print("Hallo")
 >Gut, nun aber zurück zum Code. Als Einstieg wollen, wir also ein Programm schreiben, welches uns sagt __wie viele Tage__ es noch dauert bis du Geburtstag hast. 
 >Schauen wir uns also erst einmal an wie wir herausfinden __welcher Tag heute ist__.
 >Dazu schreiben wir folgenden Code.
->Wie immer kannst du das ganze einfach kopieren oder aber, __das empfehle ich, selbst schreiben__.
 >
+>Wie immer kannst du das ganze einfach kopieren oder aber, __das empfehle ich, selbst schreiben__.
 >
 >__Beachte beim selbst schreiben das du meine Kommentare, die Zeilen die hinter einer # sind, weglassen kannst!__
 >
