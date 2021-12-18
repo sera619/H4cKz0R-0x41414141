@@ -1,9 +1,7 @@
-
-# Wir importieren wieder als Erstes ein paar stantard libarys die wir brauchen.
-
 from datetime import datetime
 from datetime import date
 import time
+# Wir importieren wieder als Erstes ein paar stantard libarys die wir brauchen.
 
 
 # wir nutzen die date-Klasse um das heutige Datum in der Variable 'today'
