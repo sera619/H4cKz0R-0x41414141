@@ -18,7 +18,7 @@ tags:
 <br>
 <center>
 <h1 id="green-text"><i class="fa-solid fa-info"></i></h1>
-<h3 id="green-text">Kure Info</h3>
+<h3 id="green-text">Kurze Info</h3>
 </center>
 <br>
 
