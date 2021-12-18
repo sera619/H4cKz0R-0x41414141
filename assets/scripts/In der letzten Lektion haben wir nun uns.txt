@@ -1,0 +1,212 @@
+In der letzten Lektion haben wir nun unser erstes Bashscript geschrieben. Nun dies sollte nur einmal zeigen wie einfach ein Script sein kann. Bash als solches eignet sich aber
+nur bedingt um in das Programmieren einzusteigen. Daher schauen wir uns jetzt einmal 'Pyhton' an. Python hat einer einfachen Syntax und ist auch sehr einfach zu lesen.
+Top Eigenschaften also. Zudem ist es bei Hackern sehr beliebt.
+
+Starten wir also erst einmal 'Kali Linux'.
+
+Da der 'Mousepad' Editor von Kali nun nicht das wahre ist werden wir heute einen anderen Editor installieren und benutzen, der uns bei Code schreiben hilft.
+Für diesen Zweck habe ich ein kleines Programm geschrieben welches du mit 
+```Bash
+wget -L https://github.com/sera619/H4cKz0R-0x41414141/blob/main/assets/scripts/H4ckz0r-Manager.sh
+```
+downloaden kannst.
+Der 'H4ckz0r-Manager' wird uns beide durch die Lektionen begleiten. Ich werde es immer weiter ausbauen sodass du, sollte mal
+etwas schiefgehen nach schauen kannst und wenn nötig bestimmte Daten wiederherstellen kannst. 
+
+Nach dem Download öffne das Download Verzeichnis 
+```bash
+cd && cd Downloads
+```
+
+Jetzt das Script wieder berechtigen ausgeführt zu werden und das Script starten.
+
+```bash
+chmod +x H4ckz0r-Manager.sh && ./H4ckz0r-Manager.sh
+```
+
+Jetzt sollte das Programm bei dir gestartet sein. Installiere mit dem Tool den Atom-Editor.
+
+BILD
+
+Wenn alles geklappt hat, kannst du mit
+```bash
+atom
+```
+den Editor öffnen. 
+
+Als Nächstes brauchen wir ein Package das uns beim coden helfen soll, die 'Python IDE'.
+Gehe hier zu auf Edit > Preferences > Install
+
+BILD
+
+Gebe nun in der Suchleiste 'Python' ein und installiere das erste Paket. Im Anschluss starte 'Atom' einmal neu.
+
+Bild
+
+Mit dem installierten Package wird jetzt der Code mit einem Highlight versehen. Das soll uns helfen den Code besser lesen
+zu können und im Zweifel Bugs schneller ausfindig machen zu können.
+Python ist wie schon gesagt relativ simpel und sehr geeignet gerade für den Einstieg also auf gehts! 
+Im geöffneten 'Atom' Editor STRG + N um eine neue Datei zu erstellen. Im Anschluss STRG + S um die Datei einmal zu speichern.
+
+Wähle hierzu Desktop > MeineScripts > Python > Basics.py
+
+
+BILD
+
+Starten wir also mit ein paar basics:
+Um in Python eine Textausgabe zu erstellen brauchen wir die 'Funktion' 'print()'
+Möchten wir also nun einmal Hallo ausgeben so machen wir das mit 
+
+```pyhton
+print("Hallo")
+```
+
+Hallo wird hierbei in " gesetzt und dies nennt man 'String'. Die Zeichen zwischen den " können beliebig sein.
+So geht zum Beispiel auch: print("12 dashudh23kdoa231") - ergibt für uns Mensch keinen Sinn aber der Maschine ist
+das ohnehin egal.
+
+
+In Python gibt es sogenannte 'libarys' diese sind Code-Stücke welche andere Entwickler geschrieben haben. Wir müssen
+und SOLLTEN das Rad nicht immer wieder neu erfinden! Dein Code sollte immer gleich strukturiert sein. 
+Du kannst beispielsweise einen String auch mit ' statt" deklarieren. Wichtig hierbei: Entscheide dich für eines!
+Möchtest du zum Beispiel in einem String etwas in" setzten dann funktioniert das ohne Probleme, wenn du im String 
+das ' als Anführungszeichen benutzt. Hier mal beide Beispiele damit du es dir besser vorstellen kannst.
+
+Beispiel 1
+
+```python
+print("Hallo mein Name ist 'Sera'. Wie geht es dir?")
+```
+Beispiel 2
+
+```python
+print('Hallo mein Name ist "Sera". Wie geht es dir?')
+```
+
+Du siehst, man kann bei vielen Zeilen Code schnell den Überblick verlieren, deßhalb gewöhne dir eine Schreibweise an!
+Das ist ja schon alles kompliziert genug. =)
+Du wirst dich jetzt sicher fragen, woher weiß man eigentlich was man da eingeben muss? Die Frage wird dir die
+'Documentation' von Python beantworten. Jede Art von Software, besonders bei dem Umfang einer Computersprache
+, findet man so gut wie immer eine 'Documentation'. Dort erklären die Entwickler, wie ihre Software funktioniert 
+und wie man sie benutzt. 
+Hier wären wir auch wieder bei dem Thema aus Lektion 1: 'Be always updated'. Lesen, lesen und nochmal lesen. 
+Oftmals schreibt man einen ganzen Tag lang keine Zeile code weil man sich in etwas einarbeiten muss. 
+Als Nun Hacker wirst du viele Scripte schreiben, also programmieren. So ist es ratsam dich mit dem benutzen von Google, 
+wenn nicht ohnehin schon, besser auseinander zu setzen.
+
+
+Gut, nun aber zurück zum Code. Als Einstieg wollen, wir also ein Programm schreiben, welches uns sagt wie viel Tage
+es noch dauert bis du Geburtstag hast. 
+Schauen wir uns also erst einmal an wie wir herausfinden welcher Tag heute ist.
+Dazu schreiben wir folgenden Code.
+
+```python
+# hier importieren wir eine stantard libary 'datetime' und daraus die 'Klasse' 'date' 
+from datetime import date
+
+
+# Dies ist eine 'Variable' eine Variable kennen wir schon aus Bash(Lektion 2). In Python kann sie ebenfalls alles sein!
+# Eine Zahl oder ein String oder auch anderes, was das genau ist schauen wir uns später noch an.
+# Schritt für Schritt.
+
+
+heute = date.now()
+
+
+print(heute)
+
+```
+
+Speicher das Python-Script mit STRG + S! Öffne nun ein Terminal(STRG + ALT + T) und gebe
+```bash
+python3 Desktop/MeineScripts/Python/Basics.py
+```
+ein wenn du keinen Fehler gemacht hast sollte dir nun das heutige Datum angezeigt Werden
+
+
+
+Bild
+
+Jetzt wird es etwas komplexer. Da wir jetzt wissen welches Datum heute ist. Müssen wir jetzt noch wissen, wann unser Benutzer
+Geburtstag hat. Den Benutzer 'fragen' kann man in Python mit input().
+Ich habe hier also unseren Geburtstags-Rechner einmal vorbereitet.
+Wie immer kannst du das ganze einfach kopieren oder aber, das empfehle ich, selbst schreiben.
+Beachten beim selbst schreiben das du meine Kommentare, die Zeilen die hinter einer # sind, weglassen kannst!
+Wie auch schon in Bash, unbedingt penibel auf Komma, Punkt, Sonderzeichen, Leerzeichen und Absätze achten!   
+
+```python
+
+# Wir importieren wieder als Erstes ein paar stantard libarys die wir brauchen.
+
+from datetime import datetime
+from datetime import date
+import time
+
+
+# wir nutzen die date-Klasse um das heutige Datum in der Variable 'today'
+# zu speichern.
+today = date.today()
+
+# Hier haben wir eine Funktion. Funktionen kann man sich als Paket mit vorstellen
+# In diesem Paket befinden sich nun Aktionen. Eine oder auch mehrere
+# In der 'user_birthday()' Funktion erfragen wir also nun das Geburtsdatum
+# des Benutzers.
+
+def user_birthday():
+    # die input() Funktion lässt eine Zeile für Eingaben
+    # des Benutzers erscheinen. Diese Eingabe wird dann in der
+    # Variable 'year', 'month' und 'day' gespeichert
+    year = int(input('In welchem Jahr hast du Geburtstag? [Y][Y] :'))
+    month = int(input('In welchem Monat hast du Geburtstag? [M][M] :'))
+    day = int(input('An welchem Tag hast du Geburtstag? [D][D] :'))
+    # das ganze datum wird hier in die Variable 'birthday' gespeichert
+    birthday = datetime(year,month,day)
+    # und wir geben das datum formatiert zurück
+    return birthday
+
+# in dieser Funktion berechnen wir nun die Tage
+# die Funktion ist etwas komplexer hier siehst du eine 'If Funktion'
+# Das heisst, wenn a passiert soll b eintreten vereinfacht gesagt.
+# ich umreiße das hier mal kurz
+# wir lernen später noch wie genau das funktioniert
+def calculate_dates(birthday):
+    today == date.fromtimestamp(time.time())
+    birthday = date(today.year, birthday.month, birthday.day)
+    # wenn A passiert
+    if birthday < today:
+        # soll B passieren
+        birthday = birthday.replace(year=today.year + 1)
+        return birthday
+    # wenn A nicht passiert oder zutrifft
+    else:
+        # soll auch b passieren
+        return birthday
+
+# Und hier jetzt der eigentliche Programmablauf
+# Geburtstag des Benutzers wird in 'bday' gespeichert durch Benutzen der Funktion
+# 'user_birthday()'
+bday = user_birthday()
+# Hier übergeben wir den Geburtstag in die Funktion 'calculate_dates()'
+t = calculate_dates(bday)
+# Abs ist etwas fortgeschritten. nur soviel wir formatieren das ganze
+# und ziehen errechnen die Tage ab heute
+time_to_birthday = abs(t-today)
+# hier 'nehmen' wir uns also die berechneten Tage
+# str() wird benutz um das in den klammern enthalte in einen String
+# umzuwandeln.
+days=str(time_to_birthday.days)
+# Und zum Schluss geben wir das Ganze in der Konsole per print() aus
+print("\n\nNoch :" + days + " Tage bis zu deinem Geburtstag")
+```
+
+
+So habe ich in dieser Lektion eine Hausaufgabe. Diese Aufgabe ist wichtig! Die Antwort wirst du brauchen, um die nächste
+Lektion beenden zu können. Daher mache sie sorgfältig aber keine Angst es wird nicht allzu schwer. Ich möchte nur eine Frage
+beantwortet haben - 
+
+Wie lautet die libary um in Python 'mit der Zeit zu jonglieren'?
+
+Ich bin mir sicher, du findest die Antwort sehr schnell!
+Dies war also Lektion 3, ich fasse nochmal zusammen, was wir heute gelernt haben:
+
+
