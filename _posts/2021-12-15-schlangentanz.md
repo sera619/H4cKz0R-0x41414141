@@ -44,6 +44,8 @@ tags:
 >
 >__Starten__ wir also erst einmal __'Kali Linux'__.
 >
+<br>
+<hr class="green-line">
 
 
 <br>
@@ -76,6 +78,8 @@ chmod +x H4ckz0r-Manager.sh && ./H4ckz0r-Manager.sh
 >
 >   - ![](https://github.com/sera619/H4cKz0R-0x41414141/blob/main/assets/images/3/manager_showcast.png?raw=true)
 >
+<br>
+<hr class="green-line">
 
 <br>
 <br>
@@ -151,6 +155,8 @@ print("Hallo")
 >Hier wären wir auch wieder bei dem Thema aus Lektion 1: __'Be always updated'__. Lesen, lesen und nochmal lesen. 
 >Oftmals schreibt man einen __ganzen Tag lang keine Zeile code__ weil man sich in etwas einarbeiten muss. Als Nun Hacker wirst du viele Scripte schreiben, also programmieren. So ist es ratsam dich mit dem __Benutzen von Google__, wenn nicht ohnehin schon, besser auseinander zu setzen.
 
+<br>
+<hr class="green-line">
 
 <br>
 <br>
