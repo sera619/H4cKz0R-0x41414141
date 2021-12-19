@@ -30,8 +30,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-admin (0.9.0)
-      jekyll (>= 3.3, < 5.0)
+    jekyll-admin (0.11.0)
+      jekyll (>= 3.7, < 5.0)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
     jekyll-feed (0.15.1)
@@ -96,11 +96,10 @@ DEPENDENCIES
   jekyll
   jekyll-admin
   jekyll-feed
-  rack
   tzinfo (~> 1.2)
   tzinfo-data
   wdm
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.31
+   2.2.32
