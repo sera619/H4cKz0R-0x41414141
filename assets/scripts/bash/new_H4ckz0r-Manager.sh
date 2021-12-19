@@ -54,10 +54,33 @@ _gen_birth()
   echo "${orange}Der 'Geburtstags-Rechner' wurde in${nc}${cyan}'/Desktop/birthday.py'${nc}${orange}gespeichert!${nc}"
 }
 
-declare -A pytab=(["Geburtstags-Rechner generieren"]=_gen_birth)
+_py_sheet()
+{
+  clear
+  echo
+  echo -e "${cyan}
+  ██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
+  ██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
+  ██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
+  ██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
+  ██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
+  ╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝${nc}"
+  echo
+  echo
+  echo "${orange}Der Python Spickzettel wird generiert! ...${nc}"
+  echo
+  sleep 1.5
+  cd && cd Desktop
+  wget -L https://media.cheatography.com/storage/thumb/the-one-and-only_python-basics.750.jpg
+  echo
+  sleep 1.5
+  echo "${orange}... Spickzettel wurde unter:${cyan} '/Desktop/the-one-and-only_python-basics.750.jpg'${orange} gespeichert!${nc}"
+}
+declare -A pytab=(["Geburtstags-Rechner generieren"]=_gen_birth
+                  ["Python Cheat-Sheet"]=_py_sheet)
 
 
-declare -a helppy=("Geburtstags-Rechner generieren")
+declare -a helppy=("Geburtstags-Rechner generieren" "Python Cheat-Sheet")
 _python_help()
 {
     clear
