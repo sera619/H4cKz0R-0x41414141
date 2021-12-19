@@ -151,7 +151,7 @@ _bash_help()
     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚══════╝${nc}"
     echo
     echo
-    select opt in "${bashhelp[@]}" "ZURÜCK"
+    select opt in "${helpbash[@]}" "ZURÜCK"
     do
 
         if [[ $opt == "ZURÜCK" ]]; then
