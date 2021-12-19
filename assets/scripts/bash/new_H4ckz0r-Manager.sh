@@ -103,26 +103,76 @@ _python_help()
     done
 }
 
+_start_bash()
+{
+    clear
+    echo
+    echo -e "${vio}
+    ██████╗  █████╗ ███████╗██╗  ██╗
+    ██╔══██╗██╔══██╗██╔════╝██║  ██║
+    ██████╔╝███████║███████╗███████║
+    ██╔══██╗██╔══██║╚════██║██╔══██║
+    ██████╔╝██║  ██║███████║██║  ██║
+    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝${nc}"
+    echo
+    echo "${orange}Erstelle neues Start Routine Script...${nc}"
+    echo
+    cd && cd Desktop
+    wget -L https://raw.githubusercontent.com/sera619/H4cKz0R-0x41414141/main/assets/scripts/bash/StartRoutine.sh
+    echo
+    sleep 1.5
+    echo "${orange}Neues Script wurde in${nc}${cyan}'/Desktop/Startroutine.sh'${nc} ${orange}gespeichert!${nc}"
+    echo
+
+}
+
+declare -A bashtab=(["StartRoutine.sh erstellen"]=_start_bash)
+
+
+declare -a helpbash=("StartRoutine.sh erstellen")
+
 _bash_help()
 {
-  clear
-  echo
-  echo -e "${vio}
-   ██████╗  █████╗ ███████╗██╗  ██╗
-   ██╔══██╗██╔══██╗██╔════╝██║  ██║
-   ██████╔╝███████║███████╗███████║
-   ██╔══██╗██╔══██║╚════██║██╔══██║
-   ██████╔╝██║  ██║███████║██║  ██║
-   ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+    clear
+    echo
+    echo -e "${vio}
+    ██████╗  █████╗ ███████╗██╗  ██╗
+    ██╔══██╗██╔══██╗██╔════╝██║  ██║
+    ██████╔╝███████║███████╗███████║
+    ██╔══██╗██╔══██║╚════██║██╔══██║
+    ██████╔╝██║  ██║███████║██║  ██║
+    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
 
-  ██╗  ██╗██╗██╗     ███████╗███████╗
-  ██║  ██║██║██║     ██╔════╝██╔════╝
-  ███████║██║██║     █████╗  █████╗
-  ██╔══██║██║██║     ██╔══╝  ██╔══╝
-  ██║  ██║██║███████╗██║     ███████╗
-  ╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚══════╝${nc}"
-  echo
-  echo
+    ██╗  ██╗██╗██╗     ███████╗███████╗
+    ██║  ██║██║██║     ██╔════╝██╔════╝
+    ███████║██║██║     █████╗  █████╗
+    ██╔══██║██║██║     ██╔══╝  ██╔══╝
+    ██║  ██║██║███████╗██║     ███████╗
+    ╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚══════╝${nc}"
+    echo
+    echo
+    select opt in "${bashhelp[@]}" "ZURÜCK"
+    do
+
+        if [[ $opt == "ZURÜCK" ]]; then
+            echo
+            echo "${deeprot}Kehre zum 'Hilfe' Menü zurück!...${nc}"
+            echo
+            break
+        fi
+
+        if [[ -z $opt ]]; then
+            echo "Ich konnte die letzte Eingabe: \"$REPLY\" " >$2
+            REPLY=
+        else
+            if [[ -z "${bashtab[$opt]}" ]]
+            then
+                echo "Diese Option ist ungültig, versuche eine andere!" >$2
+            else
+                eval ${bashtab[$opt]}
+            fi
+        fi
+    done
 }
 
 declare -A helptab=(["Hilfe: Bash"]=_bash_help
