@@ -8,7 +8,7 @@ import time
 # zu speichern.
 today = date.today()
 
-# Hier haben wir eine Funktion. Funktionen kann man sich als Paket mit vorstellen
+# Hier haben wir eine Funktion. Funktionen kann man sich als Paket vorstellen
 # In diesem Paket befinden sich nun Aktionen. Eine oder auch mehrere
 # In der 'user_birthday()' Funktion erfragen wir also nun das Geburtsdatum
 # des Benutzers.
@@ -28,7 +28,7 @@ def user_birthday():
 # in dieser Funktion berechnen wir nun die Tage
 # die Funktion ist etwas komplexer hier siehst du eine 'If Funktion'
 # Das heisst, wenn a passiert soll b eintreten vereinfacht gesagt.
-# ich umreisse das hier mal kurz
+# ich umreiße das hier mal kurz
 # wir lernen später noch wie genau das Funktioniert
 def calculate_dates(birthday):
     today == date.fromtimestamp(time.time())
@@ -49,8 +49,8 @@ def calculate_dates(birthday):
 bday = user_birthday()
 # Hier übergeben wir den Geburtstag in die Funktion 'calculate_dates()'
 t = calculate_dates(bday)
-# Abs ist etwas fortgeschritten. nur soviel wir formatieren das ganze
-# und ziehen errechnen die Tage ab heute
+# abs ist etwas fortgeschritten. nur soviel wir formatieren das ganze
+# und errechnen die Tage ab heute
 time_to_birthday = abs(t-today)
 # hier 'nehmen' wir uns also die berechneten Tage
 # str() wird benutz um das in den klammern enthalte in einen String
