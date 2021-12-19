@@ -142,9 +142,12 @@ _start_bash()
     echo
     cd && cd Desktop
     wget -L https://raw.githubusercontent.com/sera619/H4cKz0R-0x41414141/main/assets/scripts/bash/StartRoutine.sh
+    chmod +x StartRoutine.sh
     echo
     sleep 1.5
     echo "${orange}Neues Script wurde in${nc}${cyan}'/Desktop/Startroutine.sh'${nc} ${orange}gespeichert!${nc}"
+    echo "${orange}Ich habe mir die Freiheit genommen und den Befehl ${cyan}'chmod +x StartRoutine.sh' ${orange} bereits ausgeführt.${nc}"
+    echo "${orange}Du kannst das Script also gleich benutzen!${nc}"
     echo
 
 }
