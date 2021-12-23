@@ -173,7 +173,7 @@ tags:
 >Die letzte große Sicherheitslücke hat die Programmiersprache JAVA betroffen. Ein Fehler in einem Modul das Log schreibt, also Tagebuch.
 >
 >Solche Module nutzen Entwickler sehr oft. Der Fehler in diesem Modul hatte so gewaltige Ausmaße das sogut wie __alle großen IT-Konzerne betroffen__ waren!
->Weitere Beispiele wären auch __MIRAJI__  der beinahe __das komplette Internet lahmgelegt__ hätte. Eine unvorstellbare Anzahl an __Bot-Systemen__, also Zombie-Systeme, die alle von zentral gesteuert wurden. Ohne die __Server-Power von Amazon, Google und Elon Musk__ hätte man diesen Angriff __nicht abwehren__ können. Die Folgen hierbei wären nicht absehbar gewesen.
+>Weitere Beispiele wären auch __MIRAJI__  der beinahe __das komplette Internet lahmgelegt__ hätte. Eine unvorstellbare Anzahl an __Bot-Systemen__, also Zombie-Systeme, die alle zentral gesteuert wurden. Ohne die __Server-Power von Amazon, Google und Elon Musk__ hätte man diesen Angriff __nicht abwehren__ können. Die Folgen hierbei wären nicht absehbar gewesen.
 >
 >Das als kleiner Exkurs und __nice to know__, jetzt aber weiter mit deinem eigenen Hack!
 
