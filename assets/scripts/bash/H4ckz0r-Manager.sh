@@ -37,16 +37,227 @@ _atom_installer()
     sleep 2
 }
 
-_figtoi_install()
+_gen_birth()
 {
   clear
-  echo "${orange} ${nc}"
-
   echo
+  echo
+  echo "${orange}Der Geburtstags-Rechner wird erstellt...${nc}"
+  sleep 1.5
+  echo
+  cd && cd Desktop
+  wget -L https://raw.githubusercontent.com/sera619/H4cKz0R-0x41414141/main/assets/scripts/python/birthday.py
+  echo
+  echo "..."
+  sleep 1.5
+  echo
+  echo "${orange}Der 'Geburtstags-Rechner' wurde in${nc}${cyan}'/Desktop/birthday.py'${nc}${orange}gespeichert!${nc}"
 }
+
+_py_sheet()
+{
+  clear
+  echo
+  echo -e "${cyan}
+  ██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
+  ██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
+  ██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
+  ██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
+  ██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
+  ╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝${nc}"
+  echo
+  echo
+  echo "${orange}Der Python Spickzettel wird generiert! ...${nc}"
+  echo
+  sleep 1.5
+  cd && cd Desktop
+  wget -L https://media.cheatography.com/storage/thumb/the-one-and-only_python-basics.750.jpg
+  echo
+  sleep 1.5
+  echo "${orange}... Spickzettel wurde unter:${cyan} '/Desktop/the-one-and-only_python-basics.750.jpg'${orange} gespeichert!${nc}"
+}
+declare -A pytab=(["Geburtstags-Rechner generieren"]=_gen_birth
+                  ["Python Cheat-Sheet"]=_py_sheet)
+
+
+declare -a helppy=("Geburtstags-Rechner generieren" "Python Cheat-Sheet")
+_python_help()
+{
+    clear
+    echo
+    echo -e "${cyan}
+    ██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
+    ██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
+    ██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
+    ██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
+    ██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
+    ╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+
+              ██╗  ██╗██╗██╗     ███████╗███████╗
+              ██║  ██║██║██║     ██╔════╝██╔════╝
+              ███████║██║██║     █████╗  █████╗
+              ██╔══██║██║██║     ██╔══╝  ██╔══╝
+              ██║  ██║██║███████╗██║     ███████╗
+              ╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚══════╝${nc}"
+    echo
+    echo "${orange} ${nc}"
+    echo
+    select opt in "${helppy[@]}" "ZURÜCK"
+    do
+
+        if [[ $opt == "ZURÜCK" ]]; then
+            echo
+            echo "${deeprot}Kehre zum 'Hilfe' Menü zurück!...${nc}"
+            echo
+            break
+        fi
+
+        if [[ -z $opt ]]; then
+            echo "Ich konnte die letzte Eingabe: \"$REPLY\" " >$2
+            REPLY=
+        else
+            if [[ -z "${pytab[$opt]}" ]]
+            then
+                echo "Diese Option ist ungültig, versuche eine andere!" >$2
+            else
+                eval ${pytab[$opt]}
+            fi
+        fi
+    done
+}
+
+_start_bash()
+{
+    clear
+    echo
+    echo -e "${vio}
+    ██████╗  █████╗ ███████╗██╗  ██╗
+    ██╔══██╗██╔══██╗██╔════╝██║  ██║
+    ██████╔╝███████║███████╗███████║
+    ██╔══██╗██╔══██║╚════██║██╔══██║
+    ██████╔╝██║  ██║███████║██║  ██║
+    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝${nc}"
+    echo
+    echo "${orange}Erstelle neues Start Routine Script...${nc}"
+    echo
+    cd && cd Desktop
+    wget -L https://raw.githubusercontent.com/sera619/H4cKz0R-0x41414141/main/assets/scripts/bash/StartRoutine.sh
+    chmod +x StartRoutine.sh
+    echo
+    sleep 1.5
+    echo "${orange}Neues Script wurde in${nc}${cyan}'/Desktop/Startroutine.sh'${nc} ${orange}gespeichert!${nc}"
+    echo "${orange}Ich habe mir die Freiheit genommen und den Befehl ${cyan}'chmod +x StartRoutine.sh' ${orange} bereits ausgeführt.${nc}"
+    echo "${orange}Du kannst das Script also gleich benutzen!${nc}"
+    echo
+
+}
+
+declare -A bashtab=(["StartRoutine.sh erstellen"]=_start_bash)
+
+
+declare -a helpbash=("StartRoutine.sh erstellen")
+
+_bash_help()
+{
+    clear
+    echo
+    echo -e "${vio}
+    ██████╗  █████╗ ███████╗██╗  ██╗
+    ██╔══██╗██╔══██╗██╔════╝██║  ██║
+    ██████╔╝███████║███████╗███████║
+    ██╔══██╗██╔══██║╚════██║██╔══██║
+    ██████╔╝██║  ██║███████║██║  ██║
+    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+
+    ██╗  ██╗██╗██╗     ███████╗███████╗
+    ██║  ██║██║██║     ██╔════╝██╔════╝
+    ███████║██║██║     █████╗  █████╗
+    ██╔══██║██║██║     ██╔══╝  ██╔══╝
+    ██║  ██║██║███████╗██║     ███████╗
+    ╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚══════╝${nc}"
+    echo
+    echo
+    select opt in "${helpbash[@]}" "ZURÜCK"
+    do
+
+        if [[ $opt == "ZURÜCK" ]]; then
+            echo
+            echo "${deeprot}Kehre zum 'Hilfe' Menü zurück!...${nc}"
+            echo
+            break
+        fi
+
+        if [[ -z $opt ]]; then
+            echo "Ich konnte die letzte Eingabe: \"$REPLY\" " >$2
+            REPLY=
+        else
+            if [[ -z "${bashtab[$opt]}" ]]
+            then
+                echo "Diese Option ist ungültig, versuche eine andere!" >$2
+            else
+                eval ${bashtab[$opt]}
+            fi
+        fi
+    done
+}
+
+declare -A helptab=(["Hilfe: Bash"]=_bash_help
+                    ["Hilfe: Python"]=_python_help)
+
+
+declare -a helpopt=("Hilfe: Python" "Hilfe: Bash")
+
+
+_help()
+{
+    clear
+    echo
+    echo
+    echo -e "${cyan}
+    ██╗  ██╗██╗██╗     ███████╗███████╗
+    ██║  ██║██║██║     ██╔════╝██╔════╝
+    ███████║██║██║     █████╗  █████╗
+    ██╔══██║██║██║     ██╔══╝  ██╔══╝
+    ██║  ██║██║███████╗██║     ███████╗
+    ╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚══════╝${nc}"
+    echo
+    select opt in "${helpopt[@]}" "ZURÜCK"
+    do
+
+        if [[ $opt == "ZURÜCK" ]]; then
+            echo
+            echo
+            echo "${deeprot}Kehre zum 'Haupt' Menü zurück!...${nc}"
+            echo
+            break
+        fi
+
+        if [[ -z $opt ]]; then
+            echo "Ich konnte die letzte Eingabe: \"$REPLY\" " >$2
+            REPLY=
+        else
+            if [[ -z "${helptab[$opt]}" ]]
+            then
+                echo "Diese Option ist ungültig, versuche eine andere!" >$2
+            else
+                eval ${helptab[$opt]}
+            fi
+        fi
+    done
+}
+
 _updater()
 {
     clear
+    echo
+    echo -e "${deeprot}
+    ██╗   ██╗██████╗ ██████╗  █████╗ ████████╗███████╗██████╗
+    ██║   ██║██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗
+    ██║   ██║██████╔╝██║  ██║███████║   ██║   █████╗  ██████╔╝
+    ██║   ██║██╔═══╝ ██║  ██║██╔══██║   ██║   ██╔══╝  ██╔══██╗
+    ╚██████╔╝██║     ██████╔╝██║  ██║   ██║   ███████╗██║  ██║
+     ╚═════╝ ╚═╝     ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝${nc}"
+    echo
     echo
     echo "${rot}Überprüfe das System auf Updates...${nc}"
     sleep 4
@@ -124,7 +335,8 @@ _script()
 
 declare -A functab=(["Atom installieren"]=_atom_installer
                     ["Auf Updates überprüfen"]=_updater
-                    ["neues Startscript erstellen"]=_script)
+                    ["neues Startscript erstellen"]=_script
+                    ["Hilfe"]=_help)
 
 
 title="${deeprot}  Der H4ckz0r - Manager  ${nc}"
@@ -132,11 +344,11 @@ description="${orange}Dieses Tool wurde für die deutsche Hackfiebel entwickelt.
 des2="${orange}Du kannst damit den 'Atom'-Editor installieren,${nc}"
 des3="${orange}ein neues StartScript erstellen oder aber dein${nc}"
 des4="${orange}System auf Updates überprüfen.${nc}"
-des5="${cyan}Gebe eine Nummer ein! (1 - 4)${nc}"
+des5="${cyan}Gebe eine Nummer ein! (1 - 5)${nc}"
 att2="${deeprot}noch ohne ausdrückliche Genehmigung weiter gegeben werden !!!${nc}"
 prompt="${cyan}Wähle eine Option: ${nc}"
 
-declare -a options=("Atom installieren" "Auf Updates überprüfen" "neues Startscript erstellen")
+declare -a options=("Atom installieren" "Auf Updates überprüfen" "neues Startscript erstellen" "Hilfe")
 
 clear
 echo
