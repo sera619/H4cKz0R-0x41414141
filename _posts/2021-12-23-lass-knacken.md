@@ -1,7 +1,7 @@
 ---
-title: Der erste Hack
+title: Lass knacken
 layout: post
-post-image:
+post-image: https://github.com/sera619/H4cKz0R-0x41414141/blob/main/assets/images/knacken.png?raw=true
 description: Heute geht es um die wichtigen Tools Nmap und MetaSploit.
 tags:
 - Nmap
