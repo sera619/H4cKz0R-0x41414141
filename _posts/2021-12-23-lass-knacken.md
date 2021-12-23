@@ -198,7 +198,7 @@ tags:
     options
 ```
 >
->wählst du den Exploit aus und können und die Optionen anschauen.
+>wählst du den Exploit aus und kannnst dir die Optionen anschauen.
 >
 >  - ![](https://github.com/sera619/H4cKz0R-0x41414141/blob/main/assets/images/4/msf2.png?raw=true)
 >
