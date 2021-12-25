@@ -10,7 +10,7 @@ tags:
 ---
 
 
-#### Lektion 2 - wir schauen uns Kali und Linux mal etwas genauer an und schreiben unser erstes Script ####
+#### Schauen wir uns in dieser Lektion einmal Kali und Linux etwas genauer an und schreiben unser erstes Script ####
 
 <hr class="green-line">
 
@@ -22,7 +22,14 @@ tags:
 </center>
 <br>
 
->Solltest du zu irgendeinem Zeitpunkt Probleme oder Fragen haben, so kannst du mich jederzeit über den __Kontakt Button in der Navbar oben__ erreichen. Ich versuche so schnell, als mir möglich zu helfen! Hab also __keine Angst__ blöde Fragen zu stellen, die gibts nicht!
+
+>Ich habe ein Formular erstellt dort kannst du direkt deine Frage stellen und ggf. ein Screenshot hochladen. Ich werde so schnell als möglich antworten! Hab also __keine Angst__ blöde Fragen zu stellen, die gibts nicht!
+
+
+<a id="contact-button" href="{{site.helpformular}}"
+    class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined has-text-weight-semibold column is-two-fifths"
+    target="_blank"><i class="fas fa-envelope"></i>HILFE
+</a>
 <br>
 
 
