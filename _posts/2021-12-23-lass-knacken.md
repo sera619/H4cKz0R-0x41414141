@@ -226,10 +226,13 @@ tags:
 >
 >eingibst kannst du sehen das __root__ erscheint. Root steht hierbei für __Administrator__ wir können also ab jetzt __ALLES__ mit dem System machen, was wir möchten!
 >Mit __STRG + C__ lässt sich die Konsole wieder schließen. Ebenfalls lässt sich damit so gut wie jedes Programm im Terminal abbrechen/beenden.
->Die Metasploit VM lässt sich dann mit dem Befehl:
+>
+>Die Metasploitble VM lässt sich dann mit dem Befehl:
+>
 ```bash
     sudo shutdown -h now
 ```
+>
 >herunterfahren. Dies kann einen kleinen Augenblick dauern da erst alle Dienste beendet werden müssen.
 >
 >Das war jetzt auch schon die 4. Lektion. Ich hoffe bei dir und deinem Versuch hat alles reibungslos funktioniert. Falls nicht, kontaktiere mich bitte, ich helfe gerne weiter!
