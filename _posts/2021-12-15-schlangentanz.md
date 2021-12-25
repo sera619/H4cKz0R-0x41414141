@@ -27,6 +27,7 @@ tags:
 >Ich habe ein Formular erstellt dort kannst du direkt deine Frage stellen und ggf. ein Screenshot hochladen. Ich werde so schnell als möglich antworten! Hab also __keine Angst__ blöde Fragen zu stellen, die gibts nicht!
 
 
+<center>
 <a id="contact-button" href="mailto:{{site.helpformular}}"
     class="button is-rounded is-uppercase has-text-weight-normal is-white is-outlined has-text-weight-semibold column is-two-fifths"
     target="_blank"><i class="fas fa-envelope"></i>HILFE
@@ -39,7 +40,6 @@ tags:
 <hr class="green-line">
 <br>
 <br>
-<center>
 <h1 id="green-text"><i class="fa-brands fa-python"></i></h1>
 <h3 id="green-text">Python</h3>
 </center>
