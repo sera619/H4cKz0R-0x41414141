@@ -56,7 +56,7 @@ tags:
 >Besorge dir als Erstes das [__Metasploit-Image__](https://sourceforge.net/projects/metasploitable/files/Metasploitable2/).
 >Wenn der Download abgeschlossen ist öffne __VMware__ und klicke auf __File > Open__ und öffne das MetasploitImage.
 >
->*Wie du merkst werde ich, je weiter wir im Kurs voranschreiten desto weniger Hilfestellung und Codebeispiele werde ich geben geben. Die Basics sollten ja nach und nach verinnerlicht sein. Natürlich werde ich aber alle neuen Dinge und komplexere Sachen öfter erwähnen, keine Sorge!*
+>*Wie du merkst, je weiter wir im Kurs voranschreiten desto weniger Hilfestellung und Codebeispiele werde ich geben geben. Die Basics sollten ja nach und nach verinnerlicht sein. Natürlich werde ich aber alle neuen Dinge und komplexere Sachen öfter erwähnen, keine Sorge!*
 >
 >MetaSploit wurde so konfiguriert, dass du keine Bedenken haben musst das dein System nun angreifbar ist! Auch ist sie per Standardeinstellung so mit dem Netzwerk verbunden, das sie nicht mit dem normalen Internet so agieren kann als das es Schaden anrichten könnte.
 >
