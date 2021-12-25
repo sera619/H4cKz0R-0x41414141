@@ -23,7 +23,7 @@ tags:
 <br>
 
 
->Ich habe ein Formular erstellt dort kannst du direkt deine Frage stellen und ggf. ein Screenshot hochladen. Ich werde so schnell als möglich antworten! Hab also __keine Angst__ blöde Fragen zu stellen, die gibts nicht!
+>Ich habe ein Formular erstellt dort kannst du direkt deine Frage stellen.  Ich werde so schnell als möglich antworten! Hab also __keine Angst__ blöde Fragen zu stellen, die gibts nicht! Klicke dazu einfach auf Hilfe. Bitte versuche dabei dein Problem so genau wie möglich zu beschreiben ggf kannst du direkt im Hilfe Formular ein Screenshot hochladen.
 
 
 <center>
