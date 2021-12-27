@@ -76,9 +76,9 @@ _py_sheet()
   sleep 1.5
   echo "${orange}... Spickzettel wurde unter:${cyan} '/Desktop/the-one-and-only_python-basics.750.jpg'${orange} gespeichert!${nc}"
 }
+
 declare -A pytab=(["Geburtstags-Rechner generieren"]=_gen_birth
                   ["Python Cheat-Sheet"]=_py_sheet)
-
 
 declare -a helppy=("Geburtstags-Rechner generieren" "Python Cheat-Sheet")
 _python_help()
@@ -333,10 +333,36 @@ _script()
     echo
 }
 
+
+
+_l5_module()
+{
+    clear
+    echo
+    echo
+    echo "${orange}Python Module für Lektion 5 werden installiert...${nc}"
+    echo "${orange}... bitte halte dein Passwort bereit!${nc}"
+    echo
+    sleep 2
+    apt-get update
+    apt-get install python3-exif python3-requests python3-bs4 python3-pip
+    echo
+    echo
+    echo "${orange}... Module wurde vollständig installiert. Viel Spaß mit der Lektion!${nc}"
+    echo
+    sleep 3
+    echo 
+    clear
+}
+
+
+
 declare -A functab=(["Atom installieren"]=_atom_installer
                     ["Auf Updates überprüfen"]=_updater
                     ["neues Startscript erstellen"]=_script
+                    ["Lektion 5 - Python-Module installieren"]=_l5_module
                     ["Hilfe"]=_help)
+
 
 
 title="${deeprot}  Der H4ckz0r - Manager  ${nc}"
@@ -348,7 +374,7 @@ des5="${cyan}Gebe eine Nummer ein! (1 - 5)${nc}"
 att2="${deeprot}noch ohne ausdrückliche Genehmigung weiter gegeben werden !!!${nc}"
 prompt="${cyan}Wähle eine Option: ${nc}"
 
-declare -a options=("Atom installieren" "Auf Updates überprüfen" "neues Startscript erstellen" "Hilfe")
+declare -a options=("Atom installieren" "Auf Updates überprüfen" "neues Startscript erstellen" "Lektion 5 - Python-Module installieren" "Hilfe")
 
 clear
 echo
