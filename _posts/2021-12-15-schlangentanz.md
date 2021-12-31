@@ -247,7 +247,7 @@ def user_birthday():
     # ich umreiße das hier mal kurz
     # wir lernen später noch wie genau das funktioniert
     def calculate_dates(birthday):
-        today == date.fromtimestamp(time.time())
+        today = date.fromtimestamp(time.time())
         birthday = date(today.year, birthday.month, birthday.day)
         # wenn A passiert
         if birthday < today:
