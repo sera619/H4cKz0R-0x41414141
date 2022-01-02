@@ -77,10 +77,47 @@ _py_sheet()
   echo "${orange}... Spickzettel wurde unter:${cyan} '/Desktop/the-one-and-only_python-basics.750.jpg'${orange} gespeichert!${nc}"
 }
 
-declare -A pytab=(["Geburtstags-Rechner generieren"]=_gen_birth
-                  ["Python Cheat-Sheet"]=_py_sheet)
 
-declare -a helppy=("Geburtstags-Rechner generieren" "Python Cheat-Sheet")
+_py_l5()
+{
+    clear
+    echo
+    echo -e "${cyan}
+    ██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
+    ██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
+    ██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
+    ██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
+    ██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
+    ╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝${nc}"
+    echo
+    echo
+    echo "${orange}Python Scripte für Lektion #5 werden heruntergeladen ..."
+    echo
+    sleep 1.5
+    cd && cd Desktop
+    mkdir H0x41-L5 && cd H0x41-L5   
+    wget -L "https://raw.githubusercontent.com/sera619/H4cKz0R-0x41414141/main/assets/scripts/python/ImageInformation.py"
+    wget -L "https://github.com/sera619/H4cKz0R-0x41414141/blob/main/assets/scripts/python/ImageDownload.py"
+    echo
+    echo "${orange}... Scripte wurden im  unter:${cyan} '/Desktop/H0x41-L5'${orange} gespeichtert!"
+    echo
+    
+
+}
+
+
+
+
+
+
+
+declare -A pytab=(["Geburtstags-Rechner generieren"]=_gen_birth
+                  ["Python Cheat-Sheet"]=_py_sheet
+                  ["Lektion 5 - EXIF Materialien"]=_py_l5
+                  ["Lektion 5 - Materialien installieren"]=_l5_module
+                  )
+
+declare -a helppy=("Geburtstags-Rechner generieren" "Python Cheat-Sheet" "Lektion 5 - Materialien installieren" "Lektion 5 - EXIF Materialien")
 _python_help()
 {
     clear
@@ -339,20 +376,44 @@ _l5_module()
 {
     clear
     echo
+    echo -e "${cyan}
+  ██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
+  ██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
+  ██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
+  ██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
+  ██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
+  ╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝${nc}"
     echo
     echo "${orange}Python Module für Lektion 5 werden installiert...${nc}"
     echo "${orange}... bitte halte dein Passwort bereit!${nc}"
     echo
     sleep 2
-    apt-get update
-    apt-get install python3-exif python3-requests python3-bs4 python3-pip
+    sudo apt-get update
+    sudo apt-get install python3-exif python3-requests python3-bs4 python3-pip
     echo
     echo
-    echo "${orange}... Module wurde vollständig installiert. Viel Spaß mit der Lektion!${nc}"
-    echo
-    sleep 3
-    echo 
     clear
+    echo
+    echo "${orange} ... lade Beispiel Bilder herunter..."
+    sleep 2
+    echo 
+    echo
+    echo
+    echo
+    cd && cd Desktop && mkdir L5img && cd L5img
+    wget -L "https://github.com/sera619/h2/blob/master/fiebel/static/images/5/tracking/img-1.jpg?raw=true"
+    wget -L "https://github.com/sera619/h2/blob/master/fiebel/static/images/5/tracking/img-2.jpg?raw=true"
+    wget -L "https://github.com/sera619/h2/blob/master/fiebel/static/images/5/tracking/img-3.jpg?raw=true"
+    wget -L "https://github.com/sera619/h2/blob/master/fiebel/static/images/5/tracking/img-4.jpg?raw=true"
+    echo
+    clear
+    echo
+    echo
+    echo "${orange}... Module wurden vollständig installiert." 
+    echo "${orange}Bilder für die Lektion wurden unter ${blue}\"/Dekstop/L5img\"${orange} gespeichter!${nc}"
+    echo "${orange}Viel Spaß mit Lektion 5!${nc}"
+    echo
+
 }
 
 
@@ -360,7 +421,6 @@ _l5_module()
 declare -A functab=(["Atom installieren"]=_atom_installer
                     ["Auf Updates überprüfen"]=_updater
                     ["neues Startscript erstellen"]=_script
-                    ["Lektion 5 - Python-Module installieren"]=_l5_module
                     ["Hilfe"]=_help)
 
 
@@ -374,7 +434,7 @@ des5="${cyan}Gebe eine Nummer ein! (1 - 5)${nc}"
 att2="${deeprot}noch ohne ausdrückliche Genehmigung weiter gegeben werden !!!${nc}"
 prompt="${cyan}Wähle eine Option: ${nc}"
 
-declare -a options=("Atom installieren" "Auf Updates überprüfen" "neues Startscript erstellen" "Lektion 5 - Python-Module installieren" "Hilfe")
+declare -a options=("Atom installieren" "Auf Updates überprüfen" "neues Startscript erstellen" "Hilfe")
 
 clear
 echo

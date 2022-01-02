@@ -30,7 +30,7 @@ if response.status_code == 200:
         #print(img)
 
 
-# Abfrage ob eine Date mit dem name schon unter den angebenen Pfad existiert
+# Abfrage ob eine Datei mit dem Name schon unter den angebenen Pfad existiert
 # Falls nicht wird der Ordner im Verzeichnis des Scripts erstellt
     if not os.path.exists("./images"):
         os.mkdir("./images")
