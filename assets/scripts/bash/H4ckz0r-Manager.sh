@@ -416,9 +416,39 @@ _l5_module()
 
 }
 
+_terminal_tools()
+{
+    clear
+    echo
+    echo -e "${vio}
+    ██████╗  █████╗ ███████╗██╗  ██╗
+    ██╔══██╗██╔══██╗██╔════╝██║  ██║
+    ██████╔╝███████║███████╗███████║
+    ██╔══██╗██╔══██║╚════██║██╔══██║
+    ██████╔╝██║  ██║███████║██║  ██║
+    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝${nc}"
+    echo
+    echo
+    echo "${orange}Tools zum individualisieren des Terminals werden installiert..."
+    echo "${orange}Bitte halte dein Passwort bereit."
+    sleep 2.0
+    echo
+    sudo apt install lolcat
+    sudo apt install neofetch
+    sudo apt install toilet
+    echo
+    echo "${orange}Die Tools: ${deeprot}LolCat |  NeoFetch | Toilet ${orange}wurden installiert"
+    echo "${orange}Gebe im terminal ${deeprot}\"man <Toolname>\" ${orange}ein um die Beschreibung zu sehen."
+    echo 
+}
+
+
+
+
 
 
 declare -A functab=(["Atom installieren"]=_atom_installer
+                    ["Terminal Custom Tools"]=_terminal_tools
                     ["Auf Updates überprüfen"]=_updater
                     ["neues Startscript erstellen"]=_script
                     ["Hilfe"]=_help)
@@ -434,7 +464,7 @@ des5="${cyan}Gebe eine Nummer ein! (1 - 5)${nc}"
 att2="${deeprot}noch ohne ausdrückliche Genehmigung weiter gegeben werden !!!${nc}"
 prompt="${cyan}Wähle eine Option: ${nc}"
 
-declare -a options=("Atom installieren" "Auf Updates überprüfen" "neues Startscript erstellen" "Hilfe")
+declare -a options=("Atom installieren" "Terminal Custom Tools" "Auf Updates überprüfen" "neues Startscript erstellen" "Hilfe")
 
 clear
 echo
