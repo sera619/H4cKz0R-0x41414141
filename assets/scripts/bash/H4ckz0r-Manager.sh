@@ -436,8 +436,9 @@ _terminal_tools()
     sudo apt install lolcat
     sudo apt install neofetch
     sudo apt install toilet
+    sudo apt install cmatrix
     echo
-    echo "${orange}Die Tools: ${deeprot}LolCat |  NeoFetch | Toilet ${orange}wurden installiert"
+    echo "${orange}Die Tools: ${deeprot}CMatrix | LolCat |  NeoFetch | Toilet ${orange}wurden installiert"
     echo "${orange}Gebe im terminal ${deeprot}\"man <Toolname>\" ${orange}ein um die Beschreibung zu sehen."
     echo 
 }
